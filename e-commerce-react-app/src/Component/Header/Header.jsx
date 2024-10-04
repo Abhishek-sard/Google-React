@@ -11,6 +11,7 @@ function Header(){
             <div className="logo">
             <img src={logo} alt="Logo" style={{ width: '200px', height: 'auto' }} />
             <input type="text" placeholder='Search bar'/>
+            import { CiSearch } from "react-icons/ci";
 
 
         </div>
