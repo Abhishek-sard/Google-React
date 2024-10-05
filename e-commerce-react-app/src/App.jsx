@@ -1,9 +1,8 @@
-
 import Header from "./Component/Header/Header";
 import About from "./Component/Header/About";
 import Contact from "./Component/Header/Contact";
 import Products from "./Component/Header/Products"
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   

@@ -5,10 +5,12 @@
 // │   └── CartIcon
 
 
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './header.css'//import css file
 import logo from '../Header/logo.png';
-import About from './About.jsx';
+
+
 function Header() {
     return (
         <div className="navbar">
@@ -20,11 +22,10 @@ function Header() {
             </div>
             <div className="navigationmenu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="/About">About</a></li>
-                    <li><a href="/Contact">Contact</a></li>
-                    <li><a href="Products">Products</a></li>
-                
+                   <li><Link to="/">Home</Link></li>
+                   <li><Link to="/about">About</Link></li>
+                   <li><Link to="/contact">Contact</Link></li>
+                   <li><Link to="/products">Products</Link></li>
                 </ul>
             </div>
         </div>

@@ -1,6 +1,12 @@
-function About(){
-    return(
-        <h1>this is computer</h1>
-    )
+import React from 'react';
+
+function About() {
+    return (
+        <div>
+            <h1>About Us</h1>
+            <p>Welcome to the About page. This is where you can find information about us.</p>
+        </div>
+    );
 }
-export default About
+
+export default About;
