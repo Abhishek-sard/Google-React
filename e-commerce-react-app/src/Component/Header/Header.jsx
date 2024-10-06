@@ -1,14 +1,8 @@
-// ├── Header
-// │   ├── Logo
-// │   ├── SearchBar
-// │   ├── NavigationMenu
-// │   └── CartIcon
-
 
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css'//import css file
-import logo from '../Header/logo.png';
+import logo from '../Header/download.jpeg';
 
 
 function Header() {
