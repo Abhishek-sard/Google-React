@@ -1,0 +1,72 @@
+/* General Styling for the About Section */
+#about-section {
+    width: 80%;
+    margin: 50px auto;
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Heading Style */
+  #about-section h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  /* Intro Paragraph Styling */
+  .intro-text {
+    text-align: center;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  /* Content Box Styling */
+  .content-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  /* Paragraph Styling Inside Boxes */
+  .content-box p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Email Link Styling */
+  .email-link {
+    color: #1E90FF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    #about-section {
+      width: 95%;
+    }
+  
+    .content-box {
+      width: 95%;
+    }
+  
+    #about-section h1 {
+      font-size: 28px;
+    }
+  }
+  
